@@ -1,0 +1,52 @@
+body {
+    background-color: #FFD1DC; /* Насичений пастельний рожевий */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.black-text {
+    color: black;
+}
+
+.red-text {
+    color: red;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Додає відстань між блоками */
+}
+
+.bloc-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    font-size: 1.5rem;
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+}
+
+.figure {
+    font-size: 3rem;
+    font-weight: bold;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    color: red;
+    display: inline-block;
+    margin: 5px;
+}
